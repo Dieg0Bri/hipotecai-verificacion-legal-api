@@ -1,0 +1,9 @@
+[project]
+name = "verificacion-legal-api"
+version = "0.0.1"
+description = "Verificación legal sobre la síntesis del estudio hipotecario chileno."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
